@@ -114,12 +114,12 @@ post '/query' do
 
 
   post "/recipes" do
-
+ 
     @@input = params[:input]
   
   @@response = HTTParty.get("https://api.edamam.com/search?q=" + @@input + "&app_id=" +@app_id + "&app_key="+ @app_key);
 
-   @@array = @@response['hits']
+   @array_response = @@response['hits']
 
 
 

@@ -9,9 +9,9 @@
 </form>
 
 
-
+<% if @array_response %>
 <div class="ui three column grid">
-<% @@array.each do |item| %>
+<% @array_response.each do |item| %>
 <div class="column">
 <div class="ui fluid card">
   <div class="image">
@@ -23,5 +23,6 @@
   </div>
 </div>
 </div>
+<%end%>
 <%end%>
 </div>

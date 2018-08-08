@@ -1,0 +1,124 @@
+body{
+    color: gray;
+}
+.ui.sidebar{
+    background-color: palevioletred;
+}
+
+
+.ui.top.fixed.menu{
+    display: flex;
+}
+.ui.vertical.menu>.item:first-child {
+    margin-top: 100px;
+}
+.ui.three.column.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 310px;
+    margin-top: 100px;
+    
+}
+
+
+#mainImg{
+  display: flex;
+  align-items: center;
+}
+
+.pusher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img#staff{
+    margin-left:250px;
+    margin-top: 90px;
+}
+img#mainCook{
+    height: 930px;
+    margin-top:-230px;
+}
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+ #welcome{
+     margin-left: 500px;
+     margin-top: 100px;
+     width: 700px;
+     font-size: 80px;
+     font-family: 'Dancing Script', cursive;
+     color: gray;
+ }
+ #mainText{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     margin-left: 280px;
+     margin-bottom: 20px;
+     margin-top: 100px;
+     border-bottom: 2px solid gray;
+     font-size: 30px;
+ }
+
+ .hidden.content.home{
+     width: 450px;
+     height: 400px;
+ }
+
+ .visible.content.home{
+     width: 450px;
+     height: 400px;
+ }
+
+ /* input#srch{
+     margin-top: 50px;
+     margin-left: 10px;
+     height: 30px;
+     width: 150px;
+     color: black;
+ }
+ input{
+     height: 30px;
+     width: 30px;
+ } */
+
+ .nav{
+
+     display: flex;
+     margin-left: 1500px;
+     margin-top: 5px;
+ }
+ .ui.card>.image {
+    width: 350px;
+    height: 400px;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img{
+    width: 500px;
+    height: 400px;
+}
+.ui.fluid.card{
+    width: 500px;
+    height: 550px;
+}
+.ui.icon.input input {
+ 
+
+ width: 150px;
+}
+.ui.icon.input.btngo input{
+    width: 20px;
+}
+.ui.icon.input{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.ui.modal>.content>.icon+.description, .ui.modal>.content>.image+.description{
+    padding-left: 250px;
+    padding-top: 100px;
+}

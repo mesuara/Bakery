@@ -1,0 +1,27 @@
+<h1 style="margin-left: 800px;margin-top: 180px;" >Search for Recipe</h1>
+
+<form action="/recipes" method="post" style="margin-left: 800px;margin-top: 180px;height: 10px;">
+  <input style="width:150px; height:50px;"type="text" name="input" placeholder="Search sweets">
+  
+  
+  
+  <button style="width:50px; height:50px;margin-top:10px;" type="submit" value="Go">Go</button>
+</form>
+
+
+
+<div class="ui three column grid">
+<% @@array.each do |item| %>
+<div class="column">
+<div class="ui fluid card">
+  <div class="image">
+    <img src=<%=item['recipe']['image']%> class="stupids">
+  </div>
+  <div class="content">
+    <a class="header" href= <%= item['recipe']['url']%>><%=item['recipe']['label']%></a>
+    
+  </div>
+</div>
+</div>
+<%end%>
+</div>
